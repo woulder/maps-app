@@ -1,0 +1,46 @@
+{
+  "name": "doit",
+  "version": "1.3.37",
+  "description": "Maps test task",
+  "main": "",
+  "scripts": {
+    "dev-client": "webpack -d --watch",
+    "dev-server": "nodemon src/server/server.js",
+    "prod": "npm run prod-client & npm run prod-server",
+    "prod-client": "webpack -p",
+    "prod-server": "node src/server/server.js"
+  },
+  "author": "woulder",
+  "license": "ISC",
+  "dependencies": {
+    "2gis-maps": "^3.3.5",
+    "axios": "^0.16.2",
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-basic-auth": "^1.1.1",
+    "history": "^4.6.3",
+    "mongodb": "^2.2.30",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0"
+  }
+}

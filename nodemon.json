@@ -1,0 +1,10 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "public",
+    "src/client",
+    ".c9"
+  ],
+  "delay": "3"
+}
